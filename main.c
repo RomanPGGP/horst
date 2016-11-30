@@ -85,7 +85,7 @@ static size_t cli_buflen;
 static fd_set read_fds;
 static fd_set write_fds;
 static fd_set excpt_fds;
-
+//prueba
 static volatile sig_atomic_t is_sigint_caught;
 
 void __attribute__ ((format (printf, 2, 3)))
