@@ -71,7 +71,7 @@ $(NAME): $(OBJS)
 $(OBJS): .buildflags $(UWIFI_DEPEND)
 
 libuwifi/libuwifi.so.1:
-	make -C libuwifi INST_PATH=inst install
+	make -C libuwifi /home/roman/Documentos/Github/horst/libuwifi install
 
 check:
 	sparse $(CFLAGS)  -D__linux__ *.[ch]
